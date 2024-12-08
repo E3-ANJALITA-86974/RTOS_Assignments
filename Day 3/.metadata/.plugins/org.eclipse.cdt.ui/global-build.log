@@ -1,0 +1,24 @@
+14:21:33 **** Incremental Build of configuration Debug for project Ques2 ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DB_G473E_ZEST1S -DSTM32G473QETx -DSTM32G4 -c -I../Inc -I../ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F -I../ThirdParty/FreeRTOS/include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c:29:4: warning: #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use." [-Wcpp]
+   29 |   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
+      |    ^~~~~~~
+arm-none-eabi-gcc -o "Ques2.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/anjalita/DESD/RTOS/RTOS_Assignments/Day 3/Ques2/STM32G473QETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ques2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ques2.elf
+ 
+arm-none-eabi-size  Ques2.elf 
+arm-none-eabi-objdump -h -S Ques2.elf  > "Ques2.list"
+   text	   data	    bss	    dec	    hex	filename
+   6888	     92	  17588	  24568	   5ff8	Ques2.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ques2.list
+ 
+14:21:42 **** Incremental Build of configuration Debug for project Ques2 ****
+make -j4 all 
+arm-none-eabi-size  Ques2.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6888	     92	  17588	  24568	   5ff8	Ques2.elf
+Finished building: default.size.stdout
+ 

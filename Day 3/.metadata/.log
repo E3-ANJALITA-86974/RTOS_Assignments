@@ -1,0 +1,146 @@
+!SESSION 2024-12-04 16:47:06.616 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-12-04 16:47:22.923
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-12-04 16:47:22.924
+!MESSAGE Log4j2 initialized with config file /home/anjalita/DESD/RTOS/RTOS_Assignments/Day 3/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-12-04 16:47:26.549
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-04 16:48:13.094
+!MESSAGE Indexed 'Q1' (3 sources, 53 headers) in 3.01 sec: 1,950 declarations; 2,836 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-04 16:52:10.981
+!MESSAGE Indexed 'Q1' (14 sources, 83 headers) in 1.97 sec: 5,002 declarations; 11,720 references; 1 unresolved inclusions; 9 syntax errors; 16 unresolved names (0.096%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-04 16:55:05.563
+!MESSAGE Indexed 'Q1' (14 sources, 83 headers) in 3.5 sec: 5,210 declarations; 13,746 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.011%)
+
+!ENTRY org.eclipse.ui 4 0 2024-12-04 16:59:06.645
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.util.ConcurrentModificationException
+	at org.eclipse.emf.common.util.AbstractEList$EIterator.checkModCount(AbstractEList.java:751)
+	at org.eclipse.emf.common.util.AbstractEList$EIterator.doNext(AbstractEList.java:699)
+	at org.eclipse.emf.common.util.AbstractEList$EIterator.next(AbstractEList.java:685)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:187)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:256)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:114)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:95)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:469)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5854)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1555)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1534)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:290)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:5106)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4507)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-04 16:59:08.101
+!MESSAGE Indexed 'GPIO3' (15 sources, 91 headers) in 1.51 sec: 5,712 declarations; 14,355 references; 0 unresolved inclusions; 113 syntax errors; 8 unresolved names (0.04%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-04 16:59:27.913
+!MESSAGE Indexed 'Q1' (15 sources, 91 headers) in 1.37 sec: 5,712 declarations; 14,355 references; 0 unresolved inclusions; 113 syntax errors; 8 unresolved names (0.04%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-04 16:59:52.174
+!MESSAGE Indexed 'Ques1' (15 sources, 91 headers) in 1.35 sec: 5,712 declarations; 14,355 references; 0 unresolved inclusions; 113 syntax errors; 8 unresolved names (0.04%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-04 17:09:00.440
+!MESSAGE Indexed 'Ques2' (15 sources, 91 headers) in 1.3 sec: 5,717 declarations; 14,397 references; 0 unresolved inclusions; 113 syntax errors; 8 unresolved names (0.04%)
+!SESSION 2024-12-04 17:21:40.162 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-12-04 17:21:50.512
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-12-04 17:21:50.513
+!MESSAGE Log4j2 initialized with config file /home/anjalita/DESD/RTOS/RTOS_Assignments/Day 3/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-12-04 17:22:02.248
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-12-04 17:24:22.786 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-12-04 17:24:44.422
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-12-04 17:24:44.423
+!MESSAGE Log4j2 initialized with config file /home/anjalita/DESD/RTOS/RTOS_Assignments/Day 3/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-12-04 17:24:49.277
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-12-04 18:59:51.259 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-12-04 19:00:20.419
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-12-04 19:00:20.433
+!MESSAGE Log4j2 initialized with config file /home/anjalita/DESD/RTOS/RTOS_Assignments/Day 3/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-12-04 19:00:35.560
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-12-05 14:15:43.941 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-12-05 14:16:54.332
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-12-05 14:16:54.346
+!MESSAGE Log4j2 initialized with config file /home/anjalita/DESD/RTOS/RTOS_Assignments/Day 3/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-12-05 14:17:10.395
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 2 2 2024-12-05 14:24:47.657
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2024-12-05 14:24:47.658
+!MESSAGE The project description file (.project) for 'Ques1' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
